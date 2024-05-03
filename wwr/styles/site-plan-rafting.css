@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 body {
     font-family: var(--paragraph-font);
@@ -12,8 +12,8 @@ body {
     --accent1-color: #F2BB05;
     --accent2-color: #931F1D;
 
-    --heading-font: 'Montserrat', serif;
-    --paragraph-font:'Montserrat', serif;
+    --heading-font: 'Roboto', serif;
+    --paragraph-font:'Roboto', serif;
 
     --nav-background-color:  #FFFFFF;
     --nav-link-color: #931F1D;
@@ -22,7 +22,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Montserrat',Verdana, Tahoma, serif;
+    font-family: 'Rock Salt',Verdana, Tahoma, serif;
     color: var(--primary-color);
 
 }
