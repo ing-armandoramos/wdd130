@@ -12,8 +12,8 @@ body {
     --accent1-color: #F2BB05;
     --accent2-color: #931F1D;
 
-    --heading-font: 'Montserrat', sans-serif;
-    --paragraph-font:'Montserrat', sans-serif;
+    --heading-font: 'Montserrat', serif;
+    --paragraph-font:'Montserrat', serif;
 
     --nav-background-color:  #FFFFFF;
     --nav-link-color: #931F1D;
@@ -22,10 +22,11 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Montserrat',Verdana, Tahoma, sans-serif;
+    font-family: 'Montserrat',Verdana, Tahoma, serif;
     color: var(--primary-color);
 
 }
+
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
