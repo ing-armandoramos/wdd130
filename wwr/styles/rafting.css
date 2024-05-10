@@ -37,7 +37,7 @@ body {
     padding: 20px;
 }
 
-.hero img{
+.hero img, div {
     display: block;
     width: 100%;
     height: auto;
