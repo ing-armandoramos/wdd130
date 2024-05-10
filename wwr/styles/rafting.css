@@ -42,6 +42,7 @@ body {
     width: 100%;
     height: auto;
     position: relative;
+    float: right;
 }
 
 h1 {
