@@ -36,6 +36,9 @@ body {
     max-width: 960px;
     padding: 20px;
 }
+.hero h1, article{
+    position: absolute;
+}
 
 .hero img, div {
     display: block;
