@@ -50,6 +50,8 @@ body {
 
 h1 {
     position: absolute;
+    font-size: 2rem;
+    font-family: Roboto, serif;
 }
 
 article {
@@ -69,7 +71,44 @@ header{
     max-width: 1000px;
 }
 
+.logo img{
+    margin: 1rem;
+    width: 64px;
+    height: auto;
+
+}
+
 .navigation {
 	display: flex;
 	list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a{
+    display:flex;
+    text-align: center;
+    color:#1C77C3;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 2%; 
+    
+}
+.navigation a:hover {
+    color:#931F1D;
+    font-weight: 700;
+    text-decoration: underline; 
+}
+
+nav{
+    text-align: center;
+   
+}
+
+.box {
+    display: block;
+    border-radius: 2px;
+    border-color: #F2BB05;
 }
