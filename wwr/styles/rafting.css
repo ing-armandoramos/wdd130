@@ -15,6 +15,32 @@
     --nav-hover-background-color: #F2BB05;
 }
 
+.navigation {
+    display: block;
+    padding: 20px;
+    border:#1C77C3;
+    border-style: solid;
+}
+.description{
+    display: block;
+    padding: 20px;
+    border:#1C77C3;
+    border-style: solid;
+}
+.history{
+    display: block;
+    padding: 20px;
+    border:#1C77C3;
+    border-style: solid;
+}
+.adventure{
+    display: block;
+    padding: 20px;
+    border:#1C77C3;
+    border-style: solid;
+}
+
+/*
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Rock Salt',Verdana, Tahoma, serif;
     color: var(--primary-color);
@@ -41,7 +67,7 @@ body {
 }
 
 .hero img, div {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
     position: relative;
@@ -84,16 +110,18 @@ header{
 }
 
 .navigation li {
-    flex: 1 1 100%;
+    display:inline;
 }
 
 .navigation a{
-    display:flex;
+    display:inline-flex;
     text-align: center;
     color:#1C77C3;
-    padding: 20px;
+    padding: 10px;
+    margin-left: 30px;
     text-decoration: none;
-    border-radius: 2%; 
+    border-radius: 10%;
+    background-color: #dfdf3b; 
     
 }
 .navigation a:hover {
@@ -112,3 +140,4 @@ nav{
     border-radius: 2px;
     border-color: #F2BB05;
 }
+*/
