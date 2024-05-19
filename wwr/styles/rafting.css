@@ -95,14 +95,10 @@ h1,h2,h3,h4,h5,h6 {
 .sociallinks a{
     position: relative;
     margin-left: 3px;
-    color: none;
+    color: #000;
     text-decoration: none;
     width: 50px 
 } 
-
-.sociallinks-img{
-    position: right;
-}
 
 .about{
     padding: 25px;
