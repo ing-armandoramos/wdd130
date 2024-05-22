@@ -113,7 +113,7 @@ p{
     color:#000;
 }
 body {
-    font-family: var(--paragraph-font);
+    font-family: Roboto, sans-serif;
     max-width: 960px;
     padding: 20px;
 }
