@@ -178,6 +178,11 @@ iframe{
     border:0;
 }
 
+.labor-img img{
+    display: inline-flex;
+    max-width: 20px;
+}
+
 /*
 
 
