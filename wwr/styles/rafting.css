@@ -39,6 +39,7 @@ img {
     height: auto;
     position: relative;
     float: right;
+    padding: 10px;
 }
 
 .logo-img {
@@ -92,15 +93,24 @@ li:last-child {
   }
 
 
-h1,h2,h3,h4,h5,h6 {
+h1,h4,h5,h6 {
     font-family: 'Rock Salt',Verdana, Tahoma, serif;
     color: var(--primary-color);
+    text-align: left;
+    position: relative;
 
 }
+h2,h3{
+    font-family: Roboto,Verdana, Tahoma, serif;
+    color: var(--primary-color);
+    text-align: left;
+    position: relative;
+}
 .sociallinks a{
-    float:right;
+    float:left;
     margin-left: 3px;
-    width: 50px 
+    width: 50px
+     
 } 
 
 
@@ -109,7 +119,8 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--secondary-color);
 }
 p{
-    padding: 25px;
+    padding: 0;
+    margin: 0;
     color:#000;
 }
 body {
@@ -137,6 +148,7 @@ h1{
     font-size: 1.5em;
     color:navy;
     text-align: center;
+    
 
 }
 form{
@@ -175,20 +187,67 @@ button:hover{
 }
 
 iframe{
-    border:0;
+   
+    display: block;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border:5px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+    clear: right;
+    
 }
 
 .labor-img img{
     display: inline-flex;
-    max-width: 20px;
+    width: 200px;
+    align-self: start;
 }
 
+.image-row {
+    display: flex;
+    width: 200;
+    flex: 33.33%;
+    padding: 5px;
+    justify-content: space-evenly /* this will add equal space between each image */
+  }
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin:0.5em 1em 0 0;
+    text-align: left;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin:0.5em 1em 0 0;
+    text-align: right;
+}
+label{
+    text-align: left;
+    padding-right: 1rem;
+}
+legend{
+    padding: 0.5rem;
+    color:navy;
+    font-size: 1.3rem;
+}
+
+figure {
+    display: inline-block;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 250px;
+    margin: auto;
+  }
+
+figcaption{
+    background-color: #222;
+    color: #fff;
+    font: Roboto, sans-serif;
+    padding: 3px;
+    text-align: center;
+}
 /*
-
-
-
-
-
 .hero img, div {
     display: flex;
     width: 100%;
