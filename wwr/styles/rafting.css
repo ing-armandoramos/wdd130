@@ -233,8 +233,8 @@ legend{
 }
 
 figure {
-    display: inline-block;
-    flex-flow: column;
+    display: block;
+    flex-flow: row;
     padding: 15px;
     max-width: 250px;
     margin: auto;
@@ -248,6 +248,29 @@ figcaption{
     text-align: center;
 }
 
+table, th, td {
+    border: 1px solid;
+    width: 70%;
+    height: 80px;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+  }
+
+th {
+    font-weight: 700;
+    background-color: navy;
+    color:#FFFFFF;
+}
+
+tr:hover {
+    background-color: #1C77C3;
+    color:#FFFFFF;
+}
+
+.linkintable a{
+    text-decoration-style: dotted;
+}
 
 /*
 .hero img, div {
