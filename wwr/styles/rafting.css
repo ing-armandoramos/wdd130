@@ -92,8 +92,14 @@ li:last-child {
     border-right: #555;
   }
 
+h1{
+    font-family: 'Rock Salt',Verdana, Tahoma, serif;
+    color: var(--accent2-color);
+    text-align: left;
+    position: relative;
+}
 
-h1,h4,h5,h6 {
+h4,h5,h6 {
     font-family: 'Rock Salt',Verdana, Tahoma, serif;
     color: var(--primary-color);
     text-align: left;
