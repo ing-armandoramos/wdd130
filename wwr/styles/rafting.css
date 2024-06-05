@@ -290,7 +290,8 @@ body, html {
 
 /* The hero image */
 .presentation-image {
-  background-image:url("/images/headingimg.webp"), url("/wwr/images/headingimg.webp");
+  background-image:url("/images/headingimg.webp");
+  background-color: #bbb;
   filter: brightness(1.1);
   border: 5px solid #1C77C3;
  
