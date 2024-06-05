@@ -282,7 +282,7 @@ tr:hover {
 }
 
 
-/*This is for the headint in index page*/
+/*This is for the heading in index page*/
 
 body, html {
     height: 100%;
@@ -290,7 +290,7 @@ body, html {
 
 /* The hero image */
 .presentation-image {
-  background-image:url("/images/headingimg.webp");
+  background-image:url("wwr/images/headingimg.webp");
   filter: brightness(1.1);
   border: 5px solid #1C77C3;
  
