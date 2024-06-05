@@ -291,7 +291,8 @@ body, html {
 /* The hero image */
 .presentation-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/headingimg.webp");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background-image: url("/images/headingimg.webp");
 
   /* Set a specific height */
   height: 50%;
